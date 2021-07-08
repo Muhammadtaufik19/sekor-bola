@@ -6,7 +6,7 @@ export default function Content() {
   const [loadding, setLoading] = useState(true);
 
   const ApiKey = "8592eae856c7437ab557faf50a45eabe";
-  const baseUrl = "http://api.football-data.org/v2/";
+  const baseUrl = "https://api.football-data.org/v2/";
   const leagueId = "2021";
   const baseEndPoin = `${baseUrl}competitions/${leagueId}`;
   const teamEndPoin = `${baseUrl}competitions/${leagueId}/teams`;

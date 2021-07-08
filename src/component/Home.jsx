@@ -6,7 +6,7 @@ export default function Home() {
   const [loadding, setLoading] = useState(true);
 
   const ApiKey = "8592eae856c7437ab557faf50a45eabe";
-  const baseUrl = "http://api.football-data.org/v2/";
+  const baseUrl = "https://api.football-data.org/v2/";
   const leagueId = "2021";
   const baseEndPoin = `${baseUrl}competitions/${leagueId}`;
   const teamEndPoin = `${baseUrl}competitions/${leagueId}/teams`;
@@ -26,6 +26,7 @@ export default function Home() {
       const teams = res.data.teams;
       setTeam(teams); //   setelah si ubah statenya error
       setLoading(false);
+      console.log("team:", team);
 
       //   console.log(team);
     } catch (error) {
