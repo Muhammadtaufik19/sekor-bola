@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/sekor-bola/static/css/main.4e2f8ad4.chunk.css",
+    "main.js": "/sekor-bola/static/js/main.9c3e3ee5.chunk.js",
+    "main.js.map": "/sekor-bola/static/js/main.9c3e3ee5.chunk.js.map",
+    "runtime-main.js": "/sekor-bola/static/js/runtime-main.8a8eb36f.js",
+    "runtime-main.js.map": "/sekor-bola/static/js/runtime-main.8a8eb36f.js.map",
+    "static/css/2.4be38407.chunk.css": "/sekor-bola/static/css/2.4be38407.chunk.css",
+    "static/js/2.3ac35c30.chunk.js": "/sekor-bola/static/js/2.3ac35c30.chunk.js",
+    "static/js/2.3ac35c30.chunk.js.map": "/sekor-bola/static/js/2.3ac35c30.chunk.js.map",
+    "static/js/3.b11d8b8d.chunk.js": "/sekor-bola/static/js/3.b11d8b8d.chunk.js",
+    "static/js/3.b11d8b8d.chunk.js.map": "/sekor-bola/static/js/3.b11d8b8d.chunk.js.map",
+    "index.html": "/sekor-bola/index.html",
+    "static/css/2.4be38407.chunk.css.map": "/sekor-bola/static/css/2.4be38407.chunk.css.map",
+    "static/css/main.4e2f8ad4.chunk.css.map": "/sekor-bola/static/css/main.4e2f8ad4.chunk.css.map",
+    "static/js/2.3ac35c30.chunk.js.LICENSE.txt": "/sekor-bola/static/js/2.3ac35c30.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8a8eb36f.js",
+    "static/css/2.4be38407.chunk.css",
+    "static/js/2.3ac35c30.chunk.js",
+    "static/css/main.4e2f8ad4.chunk.css",
+    "static/js/main.9c3e3ee5.chunk.js"
+  ]
+}
