@@ -40,16 +40,18 @@ export default function Home() {
   return (
     <div>
       <div className="container">
-        <h5 className="text-center " style={{ paddingTop: 120 }}>
-          Logo
-        </h5>
-        {loadding ? (
-          <h5 className="text-center" style={{ color: "dodgerblue" }}>
-            Loading . . . .{" "}
+        <div>
+          <h5 className="text-center " style={{ paddingTop: 120 }}>
+            Logo
           </h5>
-        ) : (
-          ""
-        )}
+          {loadding ? (
+            <h5 className="text-center" style={{ color: "dodgerblue" }}>
+              Loading . . . .{" "}
+            </h5>
+          ) : (
+            ""
+          )}
+        </div>
         <div>
           {team.map((team, index) => {
             return <img src={team.crestUrl} style={{ width: 250 }}></img>;
