@@ -26,7 +26,6 @@ export default function Home() {
       const teams = res.data.teams;
       setTeam(teams); //   setelah si ubah statenya error
       setLoading(false);
-      console.log("team:", team);
 
       //   console.log(team);
     } catch (error) {
@@ -43,6 +42,13 @@ export default function Home() {
         <h5 className="text-center " style={{ paddingTop: 120 }}>
           Logo
         </h5>
+        {loadding ? (
+          <h5 className="text-center" style={{ color: "dodgerblue" }}>
+            Loading . . . .{" "}
+          </h5>
+        ) : (
+          ""
+        )}
         <div>
           {team.map((team, index) => {
             return <img src={team.crestUrl} style={{ width: 250 }}></img>;
