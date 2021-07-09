@@ -33,6 +33,10 @@ export default function Content() {
   };
   //   effect
   useEffect(() => {
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    ></meta>;
     getDataTeam();
   }, []);
 

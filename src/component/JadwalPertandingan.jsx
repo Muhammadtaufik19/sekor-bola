@@ -32,6 +32,10 @@ export default function JadwalPertandingan() {
 
   //   effect
   useEffect(() => {
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    ></meta>;
     getDataMatch();
   }, []);
 
